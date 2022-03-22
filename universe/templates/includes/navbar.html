@@ -100,15 +100,6 @@
 
         <li>
           <a class="nav-link" href="{% url 'servicepage' %}">Services</a>
-
-          <ul>
-            {% for i in links %}
-            <li>
-              <a href="{{i.get_url}}">{{i.name}}</a>
-            </li>
-
-            {% endfor %}
-          </ul>
         </li>
 
         <li>
